@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Spotify</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><a href="#"><img class="brand" src="logo.png" alt="Spotify"></a>Spotify</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="song-list">
+            <h1>Best of PARADOX - No Copyright Sounds</h1>
+            <div class="song-list-inner">
+                <div class="song-item">
+                    <img src="/covers/1.jpg" alt="1">
+                    <span class="span-song-name">Let me love you</span>
+                    <span class="song-item-play span-song">
+                        <span class="span-song-duration">05:34</span>
+                        <i id="1" class="far  fa-play-circle span-song-play"></i>
+                    </span>
+                </div>
+                <div class="song-item">
+                    <img src="/covers/1.jpg" alt="1">
+                    <span class="span-song-name">Let me love you</span>
+                    <span class="song-item-play span-song">
+                        <span class="span-song-duration">05:34</span><i id="2" class="far  fa-play-circle span-song-play"></i>
+                    </span>
+                </div>
+                <div class="song-item">
+                    <img class="img3" src="/covers/1.jpg" alt="1">
+                    <span class="span-song-name">Let me love you</span>
+                    <span class="song-item-play span-song">
+                        <span class="span-song-duration">05:34</span><i id="3" class="far  fa-play-circle span-song-play"></i>
+                    </span>
+                </div>
+                <div class="song-item">
+                    <img src="/covers/4.jpg" alt="1">
+                    <span class="span-song-name">Let me love you</span>
+                    <span class="song-item-play span-song">
+                        <span class="span-song-duration">05:34</span><i id="4" class="far  fa-play-circle span-song-play"></i>
+                    </span>
+                </div>
+                <div class="song-item">
+                    <img src="/covers/5.jpg" alt="1">
+                    <span class="span-song-name">Let me love you</span>
+                    <span class="song-item-play span-song">
+                        <span class="span-song-duration">05:34</span><i id="5" class="far  fa-play-circle span-song-play"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="song-banner"></div>
+    </div>
+
+    <div class="bottom">
+        <p id="time-update" ></p>
+        <input type="range" name="range" id="progress-bar" >
+        <div class="icons">
+            <!-- fontAwesome icons  -->
+            <i id="prev" class="fa-solid fa-2x fa-backward-fast"></i>
+            <i id="master-play" class="far fa-2x fa-play-circle"></i>
+            <i id="next" class="fa-solid fa-2x fa-forward-fast"></i>
+        </div>
+        <div class="song-info">
+            <img src="playing.gif" style="width: 80px;" alt="" id="gif">
+            <span id="song-name-info">JAADUGAR - PARADOX</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/41c023e981.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
